@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFC1Y4EBLS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KFC1Y4EBLS');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAF6F1">
+  <meta name="description" content="Электронные подарочные сертификаты студии «Глина» на мастер-класс или выбранную сумму.">
+  <meta property="og:title" content="Подарочные сертификаты">
+  <meta property="og:description" content="Электронные подарочные сертификаты студии «Глина» на мастер-класс или выбранную сумму.">
+  <meta property="og:image" content="img/og-cover.svg">
+  <title>Подарочные сертификаты — Глина</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/analytics.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Глина — главная"><span class="brand-mark">г</span><span><b>ГЛИНА</b><small>студия керамики</small></span></a>
+  <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  <nav class="main-nav" aria-label="Основная навигация">
+    <a href="classes.html">Мастер-классы</a><a href="schedule.html">Расписание</a><a href="gift.html">Сертификаты</a><a href="gallery.html">Работы</a><a href="corporate.html">Корпоративам</a><a href="contacts.html">Контакты</a>
+  </nav>
+  <a class="header-phone" href="tel:88005553535" data-event="contact_click" data-contact-type="phone">8 800 555 35 35</a>
+</header>
+<main>
+
+<section class="page-hero"><p class="eyebrow">ПОДАРОК, КОТОРЫЙ ОСТАНЕТСЯ В ПАМЯТИ</p><h1>Подарите время <em>для себя</em></h1><p>Электронный сертификат на мастер-класс или сумму — с именем получателя и вашим пожеланием.</p></section>
+<section class="gift-layout section-wrap"><div class="gift-form">
+<label for="gift-type">Выберите сертификат</label><select id="gift-type"><optgroup label="На формат"><option value="wheel">Гончарный круг — 2 900 ₽</option><option value="date">Свидание на круге — 5 200 ₽</option><option value="handbuilding">Лепка руками — 2 400 ₽</option></optgroup><optgroup label="На сумму"><option value="2000">2 000 ₽</option><option value="3000">3 000 ₽</option><option value="5000">5 000 ₽</option></optgroup></select>
+<label for="recipient-name">Имя получателя</label><input id="recipient-name" maxlength="30" placeholder="Например, Анна" value="Анна"><div class="field-meta"><span>До 30 символов</span><span id="name-count">4 / 30</span></div>
+<label for="gift-wish">Ваше пожелание</label><textarea id="gift-wish" maxlength="80" rows="3" placeholder="Пусть будет больше поводов творить!">Пусть будет больше поводов творить!</textarea><div class="field-meta"><span>До 80 символов</span><span id="wish-count">34 / 80</span></div>
+<button id="gift-order" class="btn btn-full" data-event="cta_click" data-button-name="gift_order" data-page-section="gift">Заказать сертификат ↗</button><p class="muted small">Срок действия сертификата — 6 месяцев. Это демонстрационный предпросмотр.</p></div>
+<div class="certificate-wrap"><div class="certificate" id="certificate-preview"><div class="cert-top"><span>Г Л И Н А</span><span>ПОДАРОЧНЫЙ СЕРТИФИКАТ</span></div><div class="cert-art"><div class="cert-vase"></div><span>✳</span></div><p class="cert-label">ДЛЯ ВАС С ТЕПЛОМ</p><h2 id="cert-recipient">Анна</h2><p id="cert-description">Гончарный круг</p><div class="cert-wish" id="cert-wish">Пусть будет больше поводов творить!</div><div class="cert-bottom"><span>GL-2026-0001</span><span>Действует 6 месяцев</span></div></div><button class="text-link copy-certificate" id="copy-certificate">Скопировать детали сертификата ↗</button></div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-brand"><a class="brand brand-light" href="index.html"><span class="brand-mark">г</span><span><b>ГЛИНА</b><small>студия керамики</small></span></a><p>Медленный ритм. Тёплая глина. Вещи, созданные своими руками.</p></div>
+  <div><b>Приходите творить</b><p>г. Новоозёрск, ул. Гончарная, д. 6, лофт 3</p><a href="mailto:hello@glina-studio.example" data-event="contact_click" data-contact-type="email">hello@glina-studio.example</a><p><a href="tel:88005553535" data-event="contact_click" data-contact-type="phone">8 800 555 35 35</a></p></div>
+  <div><b>Навигация</b><p><a href="classes.html">Мастер-классы</a></p><p><a href="gift.html">Подарочные сертификаты</a></p><p><a href="privacy.html">Политика конфиденциальности</a></p><div class="socials"><a href="https://vk.com/" data-event="social_click" data-network="vk" data-page-section="footer">VK</a><a href="https://instagram.com/" data-event="social_click" data-network="instagram" data-page-section="footer">IG</a></div></div>
+  <div class="copyright">© 2026 Студия «Глина» · Учебный проект</div>
+</footer>
+</body></html>

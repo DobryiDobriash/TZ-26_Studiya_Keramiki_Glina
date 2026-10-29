@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFC1Y4EBLS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KFC1Y4EBLS');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAF6F1">
+  <meta name="description" content="Оставьте заявку на мастер-класс или подарочный сертификат в студии «Глина».">
+  <meta property="og:title" content="Заявка и контакты">
+  <meta property="og:description" content="Оставьте заявку на мастер-класс или подарочный сертификат в студии «Глина».">
+  <meta property="og:image" content="img/og-cover.svg">
+  <title>Заявка и контакты — Глина</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/analytics.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Глина — главная"><span class="brand-mark">г</span><span><b>ГЛИНА</b><small>студия керамики</small></span></a>
+  <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  <nav class="main-nav" aria-label="Основная навигация">
+    <a href="classes.html">Мастер-классы</a><a href="schedule.html">Расписание</a><a href="gift.html">Сертификаты</a><a href="gallery.html">Работы</a><a href="corporate.html">Корпоративам</a><a href="contacts.html">Контакты</a>
+  </nav>
+  <a class="header-phone" href="tel:88005553535" data-event="contact_click" data-contact-type="phone">8 800 555 35 35</a>
+</header>
+<main>
+
+<section class="page-hero"><p class="eyebrow">МЫ НА СВЯЗИ</p><h1>Давайте создадим<br><em>что-то настоящее</em></h1><p>Оставьте контакты и выберите, что вас интересует. Администратор свяжется с вами.</p></section>
+<section class="contact-layout section-wrap"><div class="contact-details"><p class="eyebrow">КАК НАС НАЙТИ</p><h2>Студия <em>«Глина»</em></h2><div class="contact-item"><span>АДРЕС</span><p>г. Новоозёрск, ул. Гончарная, д. 6, лофт 3</p></div><div class="contact-item"><span>ТЕЛЕФОН</span><p><a href="tel:88005553535" data-event="contact_click" data-contact-type="phone">8 800 555 35 35</a></p></div><div class="contact-item"><span>E-MAIL</span><p><a href="mailto:hello@glina-studio.example" data-event="contact_click" data-contact-type="email">hello@glina-studio.example</a></p></div><div class="note-box">Готовые изделия можно забрать через 14 дней после обжига. Доставка — 400 ₽.</div></div>
+<form id="lead-form" class="lead-form" novalidate><p class="eyebrow">ФОРМА ЗАЯВКИ</p><h2>Оставить <em>заявку</em></h2><div class="form-alert" id="form-alert" role="alert" hidden></div>
+<input type="hidden" name="request_id" id="request-id"><input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="utm_content">
+<label for="name">Ваше имя *</label><input id="name" name="name" required minlength="2" maxlength="60" placeholder="Как к вам обращаться?"><small class="field-error" data-error-for="name"></small>
+<label for="phone">Телефон *</label><input id="phone" name="phone" required inputmode="tel" placeholder="+7 900 123-45-67"><small class="field-error" data-error-for="phone"></small>
+<label for="email">E-mail (необязательно)</label><input id="email" name="email" type="email" placeholder="you@example.com"><small class="field-error" data-error-for="email"></small>
+<label for="lead-type">Что вас интересует?</label><select id="lead-type" name="lead_type"><option value="class">Запись на мастер-класс</option><option value="gift">Подарочный сертификат</option></select>
+<div id="class-fields"><label for="class-format">Формат</label><select id="class-format" name="class_format"><option value="wheel">Гончарный круг</option><option value="date">Свидание на круге</option><option value="handbuilding">Лепка руками</option><option value="course">Курс 8 занятий</option><option value="corporate">Корпоратив</option></select><label for="people">Количество гостей</label><select id="people" name="people"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select><label for="slot">Дата и время (если уже выбрали)</label><input id="slot" name="slot" placeholder="Например, 25.10.2026, 15:00"></div>
+<label class="consent"><input type="checkbox" name="consent" required><span>Я согласен(на) на обработку персональных данных согласно <a href="privacy.html">политике конфиденциальности</a>.</span></label><small class="field-error" data-error-for="consent"></small>
+<button class="btn btn-full" type="submit">Отправить заявку ↗</button><p class="muted small">Демо-режим: для реального приёма заявок подключите Google Apps Script.</p></form></section>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-brand"><a class="brand brand-light" href="index.html"><span class="brand-mark">г</span><span><b>ГЛИНА</b><small>студия керамики</small></span></a><p>Медленный ритм. Тёплая глина. Вещи, созданные своими руками.</p></div>
+  <div><b>Приходите творить</b><p>г. Новоозёрск, ул. Гончарная, д. 6, лофт 3</p><a href="mailto:hello@glina-studio.example" data-event="contact_click" data-contact-type="email">hello@glina-studio.example</a><p><a href="tel:88005553535" data-event="contact_click" data-contact-type="phone">8 800 555 35 35</a></p></div>
+  <div><b>Навигация</b><p><a href="classes.html">Мастер-классы</a></p><p><a href="gift.html">Подарочные сертификаты</a></p><p><a href="privacy.html">Политика конфиденциальности</a></p><div class="socials"><a href="https://vk.com/" data-event="social_click" data-network="vk" data-page-section="footer">VK</a><a href="https://instagram.com/" data-event="social_click" data-network="instagram" data-page-section="footer">IG</a></div></div>
+  <div class="copyright">© 2026 Студия «Глина» · Учебный проект</div>
+</footer>
+</body></html>
