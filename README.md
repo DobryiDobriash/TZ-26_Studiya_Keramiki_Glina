@@ -1,1 +1,0 @@
-# https-github.com-vadimshadowmantle-tz-14-fotostudiya-kadr35-main-blob-main-README.md
